@@ -7,7 +7,7 @@ A CLI tool to list which [twitch](https://www.twitch.tv/) channels you follow ar
 - Setup the [`twitch-cli`](https://dev.twitch.tv/docs/api/) tool, that handles storing and refreshing the token to a file. That expires every 2 months, can be refreshed by running `twitch token`
 - Go/Install `twitchlive`
   - Install [go](https://golang.org/) if you haven't already, make sure your `$GOPATH` and `$GOBIN` environment variables are set.
-  - Run: `go install "github.com/seanbreckenridge/twitchlive@latest"`
+  - Run: `go install "github.com/purarue/twitchlive@latest"`
 
 ## Run
 
@@ -76,7 +76,7 @@ Usage for twitchlive:
   -timestamp-seconds
     	print seconds since epoch instead of unix timestamp
   -twitch-cli-env-path string
-    	path to the twitch-cli config file (default "/home/sean/.config/twitch-cli/.twitch-cli.env")
+    	path to the twitch-cli config file (default "/home/username/.config/twitch-cli/.twitch-cli.env")
   -username string
     	specify user to get live channels for
 ```

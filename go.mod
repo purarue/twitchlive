@@ -1,4 +1,4 @@
-module github.com/seanbreckenridge/twitchlive
+module github.com/purarue/twitchlive
 
 go 1.17
 
